@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-didth, initial-scale=1.0">
+    <title>assigenment</title>
+    <link rel="stylesheet" href="assigenment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+
+
+        <div class="navbar" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+
+
+            <li>
+              <a href="https://github.com/codeengineer2004/codeengineer/blob/main/index.css">HOME</a>
+            </li>
+            <li>
+              <a href="">CONTACT</a>
+            </li>
+            <li>
+              <a href="">INFORMAION</a>
+            </li>
+            <li>
+              <a href="">GUIDE</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+    </section>
+
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+
+    </script>
+
+  </body>
+</html>
